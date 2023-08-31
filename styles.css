@@ -8,8 +8,8 @@ body, html {
 }
 
 .nav-logo {
-    width: 80px;  /* Adjust this as per your desired size */
-    height: auto;  /* This maintains the aspect ratio */
+    width: 80px;
+    height: auto;
 }
 
 nav {
@@ -20,46 +20,46 @@ nav {
     background-color: black;
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensures the nav stays on top of other content */
+    z-index: 1000;
     border-bottom: 1px solid #e1e1e1;
 }
 
 nav h1 {
-    color: #fff;  /* White color for the logo for better visibility */
+    color: #fff;
     font-weight: 700;
 }
 
 .menu {
     display: flex;
-    gap: 50px;  /* Space between menu items */
-    list-style-type: none;  /* Removes bullet points from the list */
+    gap: 50px;
+    list-style-type: none;
 }
 
 .menu li a {
-    color: #fff;  /* White color for the menu links */
-    text-decoration: none;  /* Removes the default underline */
-    transition: color 0.3s ease;  /* Smooth color transition for hover effect */
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .menu li a:hover {
-    color: #71D4FF;  /* Lighter shade of white for hover effect */
+    color: #71D4FF;
 }
 
 /*Hero Section*/
 #hero {
     position: relative;
-    height: 90vh; /* take the full viewport height */
-    color: #FFF; /* white text for better readability against the dark particle background */
+    height: 90vh;
+    color: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* to make sure particles do not overflow */
+    overflow: hidden;
     background: radial-gradient(circle at center, #FF114F, #FF00A1, #FE76FF, #7904EB, #110458);
 }
 
 .hero-logo {
-    width: 200px;  /* Adjust this as per your desired size */
-    height: auto;  /* This maintains the aspect ratio */
+    width: 200px;
+    height: auto;
 }
 
 #particles-js {
@@ -71,8 +71,8 @@ nav h1 {
 }
 
 .hero-content {
-    position: relative; /* To position the content above the particles */
-    z-index: 10; /* Put content above the particles */
+    position: relative;
+    z-index: 10;
     text-align: center;
 }
 
@@ -100,8 +100,8 @@ p {
 #hero {
     /* ... other properties ... */
     background: radial-gradient(circle at center, #FF114F, #FF00A1, #FE76FF, #7904EB, #110458);
-    background-size: 100% 200%;  /* Double the height for the shift effect */
-    animation: gradientShift 10s infinite;  /* Apply the keyframe animation */
+    background-size: 100% 200%;
+    animation: gradientShift 10s infinite;
 }
 
 .download-buttons {
@@ -115,42 +115,42 @@ p {
 .download {
     padding: 1rem 2.5rem;
     border: none;
-    border-radius: 15px; /* Smooth rounded corners */
+    border-radius: 15px;
     font-weight: 600;
     font-size: 1rem;
     text-align: center;
     text-decoration: none;
     color: #FFF;
     cursor: pointer;
-    background: black; /* Slightly transparent background */
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Soft shadow to give depth */
-    backdrop-filter: blur(4px); /* Frosted glass look */
+    background: black;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
     transition: 0.3s;
-    position: relative; /* Relative positioning for the hover effect */
+    position: relative;
 }
 
 /* Hover Effect */
 .download:hover {
     background-color: #71D4FF;
-    transform: translateY(-5px); /* Button raises slightly on hover */
+    transform: translateY(-5px);
 }
 
 /* Adding subtle gradients to differentiate the buttons */
 .mobile {
-    border: 1px solid white; /* Border for mobile button */
+    border: 1px solid white;
 
 }
 
 .tablet {
-    border: 1px solid white; /* Border for tablet button */
+    border: 1px solid white;
 }
 
 .read-more {
-    border: 1px solid white; /* Border for tablet button */
+    border: 1px solid white;
 }
 
 .see-all {
-    border: 1px solid white; /* Border for tablet button */
+    border: 1px solid white;
 }
 
 /* What is Choreland Section Styling */
@@ -176,7 +176,7 @@ p {
 
 .choreland-content {
     display: flex;
-    flex-direction: column; /* Stack content vertically */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
@@ -184,29 +184,29 @@ p {
 
 .image-container {
     display: flex;
-    gap: 20x; /* Gap between the images */
+    gap: 20x;
 }
 
 .choreland-image {
-    max-width: 50%; /* Taking 50% width for two images side by side */
+    max-width: 50%;
     height: auto;
 }
 
 /* Features Section Styling */
 #features {
-    background-color: black;  /* Slightly darker than other sections for contrast */
+    background-color: black;
     padding: 50px 0;
 }
 
 #features h1 {
     text-align: center;
-    margin-bottom: 50px;  /* Space between the heading and subsequent content */
+    margin-bottom: 50px;
     font-size: 2.5em;
 }
 
 /* AR Cleaning Adventure Section Styling */
 .ar-adventure-section {
-    background-color: black;  /* A very dark gray to give a sleek feel */
+    background-color: black;
     padding: 50px 0;
 }
 
@@ -226,8 +226,8 @@ p {
 .ar-adventure-image {
     max-width: 40%;  
     height: auto;
-    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2); /* A futuristic cyan glow shadow */
-    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+    border-radius: 15px;
 }
 
 .content-container {
@@ -236,13 +236,13 @@ p {
 }
 
 .content-container h2 {
-    color: white; /* A futuristic cyan to match the shadow */
-    margin-bottom: 20px; /* Space between title and description */
+    color: white;
+    margin-bottom: 20px;
 }
 
 /* Reward and Progress Tracking System Styling */
 .reward-and-progress-tracking-system-section {
-    background-color: black;  /* A very dark gray to give a sleek feel */
+    background-color: black;
     padding: 50px 0;
 }
 
@@ -262,8 +262,8 @@ p {
 .reward-and-progress-tracking-system-image {
     max-width: 40%;  
     height: auto;
-    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2); /* A futuristic cyan glow shadow */
-    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+    border-radius: 15px;
 }
 
 .content-container {
@@ -272,13 +272,13 @@ p {
 }
 
 .content-container h2 {
-    color: white; /* A futuristic cyan to match the shadow */
-    margin-bottom: 20px; /* Space between title and description */
+    color: white;
+    margin-bottom: 20px;
 }
 
 /* Themed Adventures Section Styling */
 .themed-adventures-section {
-    background-color: black;  /* A very dark gray to give a sleek feel */
+    background-color: black;
     padding: 50px 0;
 }
 
@@ -298,8 +298,8 @@ p {
 .themed-adventures-image {
     max-width: 40%;  
     height: auto;
-    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2); /* A futuristic cyan glow shadow */
-    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+    border-radius: 15px;
 }
 
 .content-container {
@@ -308,35 +308,35 @@ p {
 }
 
 .content-container h2 {
-    color: white; /* A futuristic cyan to match the shadow */
-    margin-bottom: 20px; /* Space between title and description */
+    color: white;
+    margin-bottom: 20px;
 }
 
 /* What games we offer Styling */
 
 #games-offer h1 {
     text-align: center;
-    margin-bottom: 50px;  /* Space between the heading and subsequent content */
+    margin-bottom: 50px;
     font-size: 2.5em;
 }
 
 #games-offer {
-    background-color: black;  /* Consistent with the other sections */
+    background-color: black;
     padding: 50px 0;
 }
 
 .games-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns based on content size */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
 .game-item img {
-    width: 300px; /* fixed width for all game images */
-    height: 200px; /* fixed height for all game images */
-    object-fit: cover; /* ensures the aspect ratio of the images are maintained */
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 15px; 
     box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2); 
 }
@@ -353,7 +353,7 @@ p {
 
 /* Join Us Section Styling */
 #join-us {
-    background-color: #0A0A0A; /* Very dark gray, giving a deeper contrast */
+    background-color: #0A0A0A;
     padding: 60px 0;
     text-align: center;
 }
@@ -361,13 +361,13 @@ p {
 #join-us h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #FFF; /* Pure white for clarity */
+    color: #FFF;
 }
 
 #join-us p {
     font-size: 1.2em;
     margin-bottom: 30px;
-    color: #BBB; /* Slightly dimmed text for subtlety */
+    color: #BBB;
 }
 
 .join-form {
@@ -375,7 +375,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    flex-wrap: wrap; /* Wrap content on smaller screens */
+    flex-wrap: wrap;
 }
 
 .join-form input[type="email"] {
@@ -383,18 +383,18 @@ p {
     border: none;
     border-radius: 10px;
     font-size: 1em;
-    width: 60%; /* Adjust this value to your liking */
-    max-width: 300px; /* To control width on bigger screens */
-    outline: none; /* Removing default outline */
-    background-color: #1B1B1B; /* Slightly brighter than section background for distinction */
-    color: #FFF; /* White text color */
+    width: 60%;
+    max-width: 300px;
+    outline: none;
+    background-color: #1B1B1B;
+    color: #FFF;
     font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease; /* Transition for hover effects */
+    transition: all 0.3s ease;
 }
 
 .join-form input[type="email"]:focus {
-    background-color: #292929; /* Slightly brighter background on focus */
-    box-shadow: 0 0 10px rgba(114, 210, 255, 0.6); /* Futuristic blue glow on focus */
+    background-color: #292929;
+    box-shadow: 0 0 10px rgba(114, 210, 255, 0.6);
 }
 
 .join-form button {
@@ -403,15 +403,15 @@ p {
     border-radius: 10px;
     font-size: 1em;
     font-weight: 600;
-    background: #71D4FF; /* Futuristic blue as used in other parts of the site */
-    color: #000; /* Dark text for contrast against the bright button */
+    background: #71D4FF;
+    color: #000;
     cursor: pointer;
-    transition: all 0.3s ease; /* Transition for hover effects */
+    transition: all 0.3s ease;
 }
 
 .join-form button:hover {
-    background: #71D4FF; /* A slightly dimmer blue on hover */
-    box-shadow: 0 0 15px rgba(114, 210, 255, 0.8); /* Intensifying the glow on hover */
+    background: #71D4FF;
+    box-shadow: 0 0 15px rgba(114, 210, 255, 0.8);
 }
 
 footer {
@@ -431,13 +431,13 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    list-style-type: none;  /* This removes the dot in front of each item */
-    margin: 0;  /* Removes default margin of the list */
-    padding: 0;  /* Removes default padding of the list */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-logo {
-    width: 100px;  /* adjust as per your design */
+    width: 100px;
 }
 
 .footer-links a {
@@ -452,5 +452,5 @@ footer {
 
 p {
     color: #fff;
-    margin-top: 10px;  /* Provide a little spacing between the links and the copyright */
+    margin-top: 10px;
 }
